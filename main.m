@@ -23,8 +23,8 @@ dt_d = 1/2;
 dt_e = 2/3;
 dt_f = 1;
 
-                                            % Seleccione resolucion de tiempo...
-                                            dt = dt_f;
+% Seleccione resolucion de tiempo...
+dt = dt_f;
 
 t = (0 : dt : 10);
 
@@ -97,7 +97,7 @@ g_b = sin((2*pi/3).*n_b) + cos((10*pi/3).*n_b);
 g_c = 5*sin((2*pi/8).*n_c) + 3*cos((2*pi/5).*n_c);
 g_d = -3*sin((2*pi/7).*n_d) .* cos((2*pi/6).*n_d);
 
-                                                stem(g_d, 'LineWidth', 1);
+stem(g_d, 'LineWidth', 1);
 
 
 
